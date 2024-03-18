@@ -1,0 +1,13 @@
+// On .env file
+
+// Put your Port number
+PORT=3000
+
+// Put your MongoDB Link here
+MONGO_URI=mongodb+srv://turtle:120100@cluster0.yh7csbi.mongodb.net/Data?retryWrites=true&w=majority&appName=Cluster0
+
+
+//then initialize it to variable in your server
+const port = process.env.PORT;
+const uri = process.env.MONGO_URI; 
+
